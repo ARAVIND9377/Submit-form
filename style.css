@@ -1,0 +1,114 @@
+ body {
+        background: #fafafd;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 20px;
+        background: #fff;
+    }
+    .form-box {
+        width: 100%;
+        max-width: 450px;
+        padding: 25px;
+        box-shadow: 0 0 15px rgba(120,120,180,0.1);
+        border-radius: 10px;
+        background: #fff;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color:black;
+        text-align: center;
+    }
+    label {
+        display: block;
+        text-align: left;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 16px;
+    }
+    input[type="text"], input[type="email"], input[type="number"], input[type="password"], select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 3px;
+        border: 1px solid #b8b8b8;
+        border-radius: 6px;
+        box-sizing: border-box;
+        transition: border 0.2s;
+    }
+    input:focus, select:focus {
+        outline: none;
+        border: 2px solid #90CDF4;
+    }
+    .gender-options {
+        display: flex;
+        gap: 25px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    .gender-options label {
+        font-weight: normal;
+        font-size: 16px;
+        margin: 0;
+    }
+    .save-btn {
+        width: 100%;
+        margin-top: 25px;
+        padding: 12px;
+        font-size: 18px;
+        background:rgb(164, 78, 52);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background 0.3s;
+    }
+    
+    .table-container {
+        margin: 40px auto 0 auto;
+        max-width: 1100px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(120,120,180,0.10);
+        border-radius: 8px;
+        padding: 18px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 16px;
+    }
+    thead {
+        background: #e9ecef;
+    }
+    th, td {
+        border: 1px solid #c5c5c5;
+        padding: 8px 18px;
+        text-align: center;
+    }
+    .delete-btn {
+        background: #E53E3E;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 6px 15px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .list-title {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 7px;
+        color: rgb(52, 133, 164);
+        font-weight: 700;
+    }

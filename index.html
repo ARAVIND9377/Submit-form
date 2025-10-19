@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Registration Form</title>
+</head>
+<body>
+<div class="container">
+    <div class="form-box">
+        <h1>Registration Form</h1>
+        <form id="regForm" autocomplete="off">
+            <label>Name</label>
+            <input id="input" type="text" placeholder="Enter your Name" required>
+            
+            <label>Age</label>
+            <input id="age" type="number" min="1" placeholder="Enter your Age" required>
+            
+            <label>Email</label>
+            <input id="email" type="email" placeholder="Enter your Email" required>
+            
+            <label>Password</label>
+            <input id="possword" type="password" placeholder="Enter your Password" required minlength="6">
+            
+            <label>Gender</label>
+            <div class="gender-options">
+                <label><input type="radio" name="Gender" value="Male" required> Male</label>
+                <label><input type="radio" name="Gender" value="Female" required> Female</label>
+            </div>
+
+            <label>Courses</label>
+            <select id="course" required>
+                <option value="">Select a course</option>
+                <option>Web development</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>MySQL</option>
+                
+            </select>
+
+            <button type="button" id="btn" class="save-btn">Save</button>
+        </form>
+    </div>
+</div>
+<div class="table-container">
+    <h1 class="list-title">List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Gender</th>
+                <th>Courses</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="container">
+        </tbody>
+    </table>
+</div>
+<script src="script.js">
+   
+</script>
+</body>
+</html>
